@@ -1,0 +1,10 @@
+# Flutter build files
+.dart_tool/
+.packages
+build/
+pubspec.lock
+/.idea/
+/.vscode/
+/.gradle/
+android/.gradle/
+**/gradle-wrapper.properties
