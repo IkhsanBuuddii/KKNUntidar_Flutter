@@ -1,0 +1,23 @@
+{
+  "name": "kk_nuntidar_backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "4.16.0",
+    "next": "13.4.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "prisma": "4.16.0",
+    "typescript": "5.2.2"
+  }
+}
